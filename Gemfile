@@ -7,9 +7,8 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.3'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'rails', '~> 5.0.2'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -34,6 +33,11 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'pg'
+gem 'spree', '~> 3.2.0'
+gem 'spree_auth_devise', '~> 3.2.0.beta'
+gem 'spree_gateway', '~> 3.2.0.beta'
+gem 'spree_multi_vendor', :git => 'https://mohansiriga7:mohan0707@github.com/mohansiriga7/spree_multivendor_fork.git'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
